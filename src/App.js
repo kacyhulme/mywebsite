@@ -2,7 +2,7 @@ import logo from './infinity.svg';
 import './App.css';
 import Nav from './Nav.js';
 import ReactModal from 'react-modal';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Resume from './Resume.js';
 
 ReactModal.setAppElement('#root');
