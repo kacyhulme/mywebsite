@@ -1,23 +1,38 @@
-import logo from './logo.svg';
+import logo from './infinity.svg';
 import './App.css';
+import Nav from './Nav.js';
+import ReactModal from 'react-modal';
+import React, { useState, useEffect } from 'react';
+
+ReactModal.setAppElement('#root');
 
 function App() {
+  const [modalIsOpen, setIsOpen] = useState(false);
+
+  function handleOpenModal() {
+    setIsOpen(true);
+  }
+  function handleCloseModal() {
+    setIsOpen(false);
+  }
+
   return (
     <div className="App">
       <header className="App-header">
+        <Nav></Nav>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Kacy Hulme
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <button onClick={handleOpenModal}>Click to See Resume</button>
+        <p>
+          Front End Web Developer
+        </p>
       </header>
+      <ReactModal isOpen={modalIsOpen} shouldCloseOnOverlayClick={true}>
+      <button onClick={handleCloseModal}>Close Modal</button>
+
+      </ReactModal>
     </div>
   );
 }
