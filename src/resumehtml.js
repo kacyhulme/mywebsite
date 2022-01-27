@@ -1,5 +1,3 @@
-import Resume from "./Resume"
-
 function ResumeHTML() {
   return(
     <div>
