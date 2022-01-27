@@ -15,7 +15,7 @@ function Contact() {
   }
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("form data",formData)
+    document.getElementById("output").append(`Hello ${formData.name}, what's up?`);
   }
 
   return (
@@ -33,6 +33,7 @@ function Contact() {
         </label>
         <button type="submit" onClick={handleSubmit}>Send</button>
       </form>
+      <div id="output"></div>
     </div>
   )
 }

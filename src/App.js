@@ -29,6 +29,9 @@ function App() {
         <p>
           Front End Web Developer
         </p>
+        <small>
+          Find the code for this website on my GitHub account <a href="https://github.com/kacyhulme/mywebsite">here</a>
+        </small>
       </header>
       <ReactModal isOpen={modalIsOpen} shouldCloseOnOverlayClick={true}>
       <button onClick={handleCloseModal}>Close Modal</button>
