@@ -5,14 +5,13 @@ import React, { useState } from 'react';
 import Resume from './Resume.js';
 import AnimateText from './AnimateText.js';
 import AnimateSVG from './AnimateSVG.js';
-import { useSpring, animated } from 'react-spring'
 import SimpleSVG from './SimpleSVG';
 
 ReactModal.setAppElement('#root');
 
 function App() {
   const [modalIsOpen, setIsOpen] = useState(false);
-  const props = useSpring({ to: { color: "red" }, from: { color: "green" } })
+ 
   function handleOpenModal() {
     setIsOpen(true);
   }

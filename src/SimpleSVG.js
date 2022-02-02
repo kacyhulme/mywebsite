@@ -1,8 +1,3 @@
-import { useState } from 'react';
-import { useSpring, animated } from 'react-spring';
-import { config } from 'react-spring';
-
-
 function SimpleSVG() {
   
   return (
