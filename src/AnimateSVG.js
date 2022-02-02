@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useSpring, animated } from 'react-spring';
 import { config } from 'react-spring';
 
-function AnimateSVG() {
+function DrawSVG() {
   const [flip, set] = useState(false)
   const { x } = useSpring({
     reset: true,
@@ -13,15 +13,15 @@ function AnimateSVG() {
     config: config.molasses,
     onRest: () => set(!flip),
   })
-  const POINTS = 5;
+  const POINTS = '22.5 35.25 8.68704657 42.5118994 11.3250859 27.1309497 0.150171867 16.2381006 15.5935233 13.9940503 22.5 0 29.4064767 13.9940503 44.8498281 16.2381006 33.6749141 27.1309497 36.3129534 42.5118994';
 
   return (
     <animated.svg
       style={{ margin: 20, width: 80, height: 80 }}
-      viewBox="0 0 45 44"
+      viewBox="-40 -20 120 120"
       strokeWidth="2"
-      fill="white"
-      stroke="rgb(45, 55, 71)"
+      fill="black"
+      stroke="rgb(255, 255, 255)"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeDasharray={156}
@@ -31,4 +31,4 @@ function AnimateSVG() {
   )
 }
 
-export default AnimateSVG;
+export default DrawSVG;
