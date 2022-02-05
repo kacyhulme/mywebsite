@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: "Misto";
+  src: local("Misto"), url(./fonts/Misto.woff) format("woff");
+}
+@font-face {
+  font-family: "Dinomouse-Regular";
+  src: local("Dinomouse-Regular"),
+    url(./fonts/Dinomouse-Regular.otf) format("opentype");
+}
+@font-face {
+  font-family: "Anggoro-Regular";
+  src: local("Anggoro-Regular"),
+    url(./fonts/Anggoro-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Fabulist";
+  src: local("Fabulist"), url(./fonts/Fabulist.otf) format("opentype");
+}
