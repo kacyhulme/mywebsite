@@ -16,7 +16,7 @@ function AnimateText() {
   })
  
   return (
-    <animated.h1 style={props}>hello</animated.h1>
+    <animated.div style={props}>hello</animated.div>
   );
 }
 
