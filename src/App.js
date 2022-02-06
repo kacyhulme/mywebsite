@@ -28,15 +28,15 @@ function App() {
         <AnimateText></AnimateText>
           <div>i am kacy hulme</div>
         </Name>
+        <div>
+          front end web developer
+        </div>
        <AnimateSVG></AnimateSVG>
        <SimpleSVG></SimpleSVG>
         <button onClick={handleOpenModal}>Click to See Resume</button>
-        <p>
-          front end web developer
-        </p>
-        <small>
+        <div>
           find the code for this website on my github account <a href="https://github.com/kacyhulme/mywebsite">here</a>
-        </small>
+        </div>
       </header>
       <ReactModal isOpen={modalIsOpen} shouldCloseOnOverlayClick={true}>
       <button onClick={handleCloseModal}>close modal</button>

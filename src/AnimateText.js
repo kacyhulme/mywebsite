@@ -10,7 +10,7 @@ function AnimateText() {
     from: { opacity: 0 },
     reset: true,
     reverse: flip,
-    delay: 200,
+    delay: 100,
     config: config.molasses,
     onRest: () => set(!flip),
   })
@@ -25,5 +25,5 @@ export default AnimateText;
 
 const AnimatedHeader = styled(animated.div)`
   margin-right: 2rem;
-  margin-left: -9rem;
+  margin-left: -17rem;
 `
