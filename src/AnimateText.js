@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useSpring, animated } from 'react-spring';
 import { config } from 'react-spring';
-
+import styled from 'styled-components';
 
 function AnimateText() {
   const [flip, set] = useState(false);
@@ -16,8 +16,14 @@ function AnimateText() {
   })
  
   return (
-    <animated.div style={props}>hello</animated.div>
+    <AnimatedHeader style={props}>hello...</AnimatedHeader>
   );
 }
 
 export default AnimateText;
+
+
+const AnimatedHeader = styled(animated.div)`
+  margin-right: 2rem;
+  margin-left: -9rem;
+`
