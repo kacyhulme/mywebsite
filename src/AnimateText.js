@@ -3,7 +3,7 @@ import { useSpring, animated } from 'react-spring';
 import { config } from 'react-spring';
 import styled from 'styled-components';
 
-function AnimateText() {
+function AnimateText( {text }) {
   const [flip, set] = useState(false);
   const props = useSpring({
     to: { opacity: 1 },
@@ -16,14 +16,15 @@ function AnimateText() {
   })
  
   return (
-    <AnimatedHeader style={props}>hello...</AnimatedHeader>
+    <AnimatedHeader style={props}>{text}</AnimatedHeader>
   );
 }
 
 export default AnimateText;
 
 
-const AnimatedHeader = styled(animated.div)`
-  margin-right: 2rem;
-  margin-left: -17rem;
+const AnimatedHeader = styled(animated.h4)`
+  font-family: "Misto";
+  display: flex;
+  justify-content: flex-start;
 `
