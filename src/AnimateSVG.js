@@ -17,7 +17,7 @@ function DrawSVG() {
 
   return (
     <animated.svg
-      style={{ margin: 20, width: 80, height: 80 }}
+      style={{ margin: 5, width: 80, height: 80 }}
       viewBox="-40 -20 120 120"
       strokeWidth="2"
       fill="black"
