@@ -5,9 +5,9 @@ function Nav() {
   return (
         <NavStyles>
         <ul>
-          <Link to="/">Home</Link>
-          <Link to="/contact">Contact</Link>
-          <Link to="/about">About</Link>
+          <Link to="/about">Web Development</Link>
+          <Link to="/about">Writing Samples</Link>
+          <Link to="/about">Photography</Link>
         </ul>
       </NavStyles>
   )
@@ -16,7 +16,10 @@ function Nav() {
 export default Nav;
 
 const NavStyles = styled.nav`
+  margin-bottom: 2rem;
+  flex-grow: 1;
   a {
-    padding-right: 1rem;
+    padding-right: 2rem;
+    text-decoration: none;
   }
 `
