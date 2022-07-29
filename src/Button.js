@@ -16,11 +16,11 @@ const ButtonStyles = styled.div`
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   button {
-    border: 2px solid white;
+    border: .2px solid white;
     color: white;
-    width: 180px;
+    width: auto;
     height: 80px;
     outline: none;
     cursor: pointer;
@@ -28,7 +28,7 @@ const ButtonStyles = styled.div`
     transition: .5s;
     font-size: 24px;
     border-radius: 5px;
-    font-family: "Fabulist";
+    font-family: "Arial";
     &:hover{
       border: none;
       color: black;

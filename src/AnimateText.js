@@ -23,8 +23,8 @@ function AnimateText( {text }) {
 export default AnimateText;
 
 
-const AnimatedHeader = styled(animated.h4)`
-  font-family: "Misto";
+const AnimatedHeader = styled(animated.div)`
+  font-family: "Arial";
   display: flex;
   justify-content: flex-start;
 `

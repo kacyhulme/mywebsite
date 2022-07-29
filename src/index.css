@@ -1,12 +1,12 @@
 body {
   margin: 0;
-  font-family: "Fabulist";
+  font-family: "Arial";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: "Fabulist";
+  font-family: "Arial";
 }
 
 a {
