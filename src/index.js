@@ -11,6 +11,8 @@ import reportWebVitals from './reportWebVitals';
 import Contact from './Contact';
 import About from './About';
 import Resume from './Resume';
+import Writing from './Writing';
+import Photography from './Photography';
 import store from './app/store';
 import { Provider } from 'react-redux';
 
@@ -23,6 +25,8 @@ ReactDOM.render(
           <Route path="contact" element={<Contact />} />
           <Route path="about" element={<About />} />
           <Route path="resume" element={<Resume />} />
+          <Route path="writing" element={<Writing />} />
+          <Route path="photography" element={<Photography />} />
         </Routes>
       </BrowserRouter>
     </Provider>
