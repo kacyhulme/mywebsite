@@ -12,6 +12,9 @@ import Contact from './Contact';
 import About from './About';
 import Resume from './Resume';
 import Writing from './Writing';
+import WritingSampleOne from './WritingSampleOne';
+import WritingSampleTwo from './WritingSampleTwo';
+import WritingSampleThree from './WritingSampleThree';
 import Photography from './Photography';
 import store from './app/store';
 import { Provider } from 'react-redux';
@@ -26,6 +29,9 @@ ReactDOM.render(
           <Route path="about" element={<About />} />
           <Route path="resume" element={<Resume />} />
           <Route path="writing" element={<Writing />} />
+          <Route path="writingsampleone" element={<WritingSampleOne />} />
+          <Route path="writingsampletwo" element={<WritingSampleTwo />} />
+          <Route path="writingsamplethree" element={<WritingSampleThree />} />
           <Route path="photography" element={<Photography />} />
         </Routes>
       </BrowserRouter>
