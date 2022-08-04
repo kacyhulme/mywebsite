@@ -27,4 +27,5 @@ const AnimatedHeader = styled(animated.div)`
   font-family: "Arial";
   display: flex;
   justify-content: flex-start;
+  padding-top: 3rem;
 `
