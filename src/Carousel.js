@@ -8,6 +8,12 @@ import GTBookingPage from "./GrowthToolsBookingPage.jpg";
 import GTBookingThankYouPage from "./GrowthToolsBookingThankYou.jpg";
 import GUModal from "./GUmodal.jpg";
 import GUPartnerships from "./GUPartnerships.jpg";
+import AppopticsHomeKeyFeatures from "./AppopticsHomeKeyFeatures.jpg";
+import AppopticsIntegrations from "./AppopticsIntegrations.jpg";
+import SolarWindsAppopticsHomeKeyFeatures from "./SolarWindsAppopticsHomeKeyFeatures.jpg";
+import SolarWindsLibrato from "./SolarWindsLibrato.jpg";
+import SolarWindsPapertrail from "./SolarWindsPapertrail.jpg";
+import SolarWindsPingdom from "./SolarWindsPingdom.jpg";
 
 export default class Carousel extends Component {
   render() {
@@ -41,6 +47,30 @@ export default class Carousel extends Component {
           <div>
             <h3>Growth University Partnerships Page</h3>
             <img src={GUPartnerships} alt="GUPartnerships" />
+          </div>
+          <div>
+            <h3>AppopticsHomeKeyFeatures</h3>
+            <img src={AppopticsHomeKeyFeatures} alt="AppopticsHomeKeyFeatures" />
+          </div>
+          <div>
+            <h3>AppopticsIntegrations</h3>
+            <img src={AppopticsIntegrations} alt="AppopticsIntegrations" />
+          </div>
+          <div>
+            <h3>SolarWindsAppopticsHomeKeyFeatures</h3>
+            <img src={SolarWindsAppopticsHomeKeyFeatures} alt="SolarWindsAppopticsHomeKeyFeatures" />
+          </div>
+          <div>
+            <h3>SolarWindsLibrato</h3>
+            <img src={SolarWindsLibrato} alt="SolarWindsLibrato" />
+          </div>
+          <div>
+            <h3>SolarWindsPapertrail</h3>
+            <img src={SolarWindsPapertrail} alt="SolarWindsPapertrail" />
+          </div>
+          <div>
+            <h3>SolarWindsPingdom</h3>
+            <img src={SolarWindsPingdom} alt="SolarWindsPingdom" />
           </div>
         </Slider>
       </SliderWrapper>
