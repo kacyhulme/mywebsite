@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
@@ -5,7 +6,7 @@ function Nav() {
   return (
         <NavStyles>
         <ul>
-          <Link to="/about">Web Development</Link>
+          <Link to="/webdevelopment">Web Development</Link>
           <Link to="/writing">Writing Samples</Link>
           <Link to="/photography">Photography</Link>
         </ul>

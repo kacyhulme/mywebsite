@@ -9,24 +9,21 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Contact from './Contact';
-import About from './About';
+import WebDevelopment from './WebDevelopment';
 import Resume from './Resume';
 import Writing from './Writing';
 import WritingSampleOne from './WritingSampleOne';
 import WritingSampleTwo from './WritingSampleTwo';
 import WritingSampleThree from './WritingSampleThree';
 import Photography from './Photography';
-import store from './app/store';
-import { Provider } from 'react-redux';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={store}>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="about" element={<About />} />
+          <Route path="webdevelopment" element={<WebDevelopment />} />
           <Route path="resume" element={<Resume />} />
           <Route path="writing" element={<Writing />} />
           <Route path="writingsampleone" element={<WritingSampleOne />} />
@@ -35,7 +32,6 @@ ReactDOM.render(
           <Route path="photography" element={<Photography />} />
         </Routes>
       </BrowserRouter>
-    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
